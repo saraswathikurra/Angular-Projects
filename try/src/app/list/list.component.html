@@ -1,0 +1,13 @@
+<h1>List of Brews</h1>
+
+<table>
+    <tr>
+        <th>Book Name</th>
+        <th>City</th>
+    </tr>
+
+    <tr *ngFor="let brew of brews">
+        <td> {{ brew.name}} </td>
+        <td> {{ brew.city}} </td>
+    </tr>
+</table>

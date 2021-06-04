@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: purple;
+    padding: 16px 16px;
+}
+
+.welcome {
+    background-color: purple;
+    color: white;
+    padding: 16px 14px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}

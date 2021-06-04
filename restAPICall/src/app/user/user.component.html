@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brewery Types</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td> {{user.name}} </td>
+            <td> {{user.brewery_type}} </td>
+        </tr>
+    </tbody>
+</table>
